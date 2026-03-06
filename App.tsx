@@ -83,7 +83,7 @@ const customerFeatures = [
 
 const deliveryFeatures = [
   { label: "Quick delivery", desc: "Within 20km of nearest pharmacy — on-demand, same-day" },
-  { label: "Standard delivery", desc: "Beyond 20km radius — 2-day via Magic Delivery courier" },
+  { label: "Standard delivery", desc: "Beyond 20km radius — 2-day via your courier partner" },
   { label: "Pickup option", desc: "In-store pickup at physical pharmacy locations - auto-selected via Shopify" },
 ];
 
@@ -188,7 +188,7 @@ const App: React.FC = () => {
           <div className={blobClass}></div>
           <div className="relative z-10 space-y-5">
             <p className={bodyTextLg}>
-              Proposal for rebuilding the pharmacy e-commerce <strong className="text-stone-800">mobile app</strong> and improving the existing platform for the Oman-based client. The website is already live and hosted on <strong className="text-stone-800">Hostinger</strong>, and <strong className="text-stone-800">Shopify is already configured</strong> in production.
+              Proposal for rebuilding the pharmacy e-commerce <strong className="text-stone-800">mobile app</strong> and improving the existing platform for the Qatar-based client. The website is already live and hosted on <strong className="text-stone-800">Hostinger</strong>, and <strong className="text-stone-800">Shopify is already configured</strong> in production.
             </p>
             <p className={bodyTextLg}>
               Our approach: <strong className="text-stone-800">Shopify as the sole backend</strong> (inventory, orders, products, payments via Shopify APIs), <strong className="text-stone-800">custom-built React Native mobile app</strong>, and <strong className="text-stone-800">Firebase for real-time features</strong>.
@@ -301,7 +301,7 @@ const App: React.FC = () => {
             ))}
           </div>
           {/* Open question from MD */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -311,11 +311,11 @@ const App: React.FC = () => {
             <p className={`${bodyTextSm} text-amber-800 italic`}>
               <strong>Open question:</strong> If the product is out of stock at the nearest location, can we arrange for delivery from any warehouse that has it available as standard delivery?
             </p>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* Delivery & Logistics */}
-        <motion.div
+        {/* <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
@@ -348,7 +348,7 @@ const App: React.FC = () => {
             ))}
           </div>
           {/* Open question from MD */}
-          <motion.div
+        {/*<motion.div
             initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -359,7 +359,7 @@ const App: React.FC = () => {
               <strong>Open question:</strong> How does the delivery flow work - how do we know that the product has been delivered? What is the current flow with Shopify?
             </p>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Admin Panel */}
         <motion.div

@@ -1,8 +1,8 @@
-# E-Commerce Platform Proposal - Pharmacy App (Oman)
+# E-Commerce Platform Proposal - Pharmacy App (Qatar)
 
 ## Overview
 
-Proposal for rebuilding the pharmacy e-commerce **mobile app** and improving the existing platform for the Oman-based client. The website is already live and hosted on **Hostinger**, and **Shopify is already configured** in production.
+Proposal for rebuilding the pharmacy e-commerce **mobile app** and improving the existing platform for the Qatar-based client. The website is already live and hosted on **Hostinger**, and **Shopify is already configured** in production.
 
 Our approach: **Shopify as the sole backend** (inventory, orders, products, payments via Shopify APIs), **custom-built React Native mobile app**, and **Firebase for real-time features** (push notifications, analytics, auth, remote config). The existing website continues as-is with improvements.
 
@@ -47,7 +47,7 @@ Our approach: **Shopify as the sole backend** (inventory, orders, products, paym
 ### 🏪 Delivery & Logistics
 
 - ✅  **Quick delivery** - Within 20km of nearest pharmacy (on-demand, same-day).
-- ✅  **Standard delivery** - Beyond 20km radius (2-day via Magic Delivery courier)
+- ✅  **Standard delivery** - Beyond 20km radius (2-day via your courier partner)
 - ✅ **Pickup option** - In-store pickup at physical pharmacy locations. - We will give user to select store.
 
 > ***How Delivery flow work - How do we know that the product has been delivered.  What is the current flow  with shopify?***

@@ -2,14 +2,14 @@ import { CostItem, ProposalData } from './types';
 
 export const PROPOSAL_CONTENT: ProposalData = {
   meta: {
-    client: "Avicen Pharmacy",
-    project: "Avicen - Pharmacy App (Oman)",
+    client: "Truth Care Pharmacy",
+    project: "Truth Care - Pharmacy App (Qatar)",
     platform: "React Native (iOS + Android)",
     preparedBy: "Haris&Co.",
     totalDuration: "~18 Weeks",
     totalInvestment: "USD TBD"
   },
-  executiveSummary: `This proposal covers the rebuilding of Avicen Pharmacy's e-commerce mobile app and improving the existing platform for the Oman-based client. The website is already live and hosted on Hostinger, and Shopify is already configured in production.
+  executiveSummary: `This proposal covers the rebuilding of Truth Care Pharmacy's e-commerce mobile app and improving the existing platform for the Qatar-based client. The website is already live and hosted on Hostinger, and Shopify is already configured in production.
 
 Our approach: Shopify as the sole backend (inventory, orders, products, payments via Shopify APIs), a custom-built React Native mobile app, and Firebase for real-time features (push notifications, analytics, auth, remote config). The existing website continues as-is with targeted improvements.
 
@@ -32,7 +32,7 @@ Key Principle: The client owns everything - codebase, hosting, credentials, and 
       activities: [
         "Stakeholder discussions and requirement clarification",
         "Audit of existing Shopify setup, product catalog, and current app pain points",
-        "Delivery flow review - current Magic Delivery & Shopify fulfillment integration",
+        "Delivery flow review - your courier partner & Shopify fulfillment integration",
         "Multi-location inventory strategy: GPS radius, warehouse fallback logic",
         "Firebase project setup and architecture planning",
         "Authentication strategy: Email + Mobile OTP flow design"
@@ -135,7 +135,7 @@ Key Principle: The client owns everything - codebase, hosting, credentials, and 
             "Firebase Auth, Firestore, FCM, and Realtime Database",
             "Google Maps API for delivery radius and tracking",
             "Yotpo API for product reviews",
-            "Magic Delivery courier integration (standard delivery beyond 20km)"
+            "your courier partner integration (standard delivery beyond 20km)"
           ]
         }
       ],
