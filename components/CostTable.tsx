@@ -1,39 +1,39 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const formatCurrency = (value: number) => `AED ${value.toLocaleString('en-AE')}`;
+const formatCurrency = (value: number) => `₹ ${value.toLocaleString('en-IN')}`;
 
 const COST_BREAKDOWN = [
     {
         category: "UI/UX design",
-        subtotal: 12000,
+        subtotal: 300000,
         items: [
-            { name: "Mobile App UI/UX", value: 6000 },
-            { name: "Component Library & Design System", value: 2000 },
-            { name: "Admin Panel Wireframes", value: 2000 },
-            { name: "User Flows", value: 1000 },
-            { name: "Design QA & Iteration", value: 1000 },
+            { name: "Mobile App UI/UX", value: 150000 },
+            { name: "Component Library & Design System", value: 50000 },
+            { name: "Admin Panel Wireframes", value: 50000 },
+            { name: "User Flows", value: 25000 },
+            { name: "Design QA & Iteration", value: 25000 },
         ]
     },
     {
         category: "Frontend",
-        subtotal: 25000,
+        subtotal: 625000,
         items: [
-            { name: "App UI Development", value: 12000 },
-            { name: "Shopify Storefront API Integration", value: 6000 },
-            { name: "Firebase Client SDK", value: 5000 },
-            { name: "Testing & QA", value: 2000 },
+            { name: "App UI Development", value: 300000 },
+            { name: "Shopify Storefront API Integration", value: 150000 },
+            { name: "Firebase Client SDK", value: 125000 },
+            { name: "Testing & QA", value: 50000 },
         ]
     },
     {
         category: "Backend",
-        subtotal: 14200,
+        subtotal: 355000,
         items: [
-            { name: "Custom Auth Service", value: 4000 },
-            { name: "Firebase", value: 3000 },
-            { name: "Admin Panel APIs", value: 3000 },
-            { name: "Shopify Webhook Handlers", value: 2400 },
-            { name: "Deployment & Infra", value: 1800 },
+            { name: "Custom Auth Service", value: 100000 },
+            { name: "Firebase", value: 75000 },
+            { name: "Admin Panel APIs", value: 75000 },
+            { name: "Shopify Webhook Handlers", value: 70000 },
+            { name: "Deployment & Infra", value: 35000 },
         ]
     }
 ];

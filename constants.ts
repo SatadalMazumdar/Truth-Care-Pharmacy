@@ -174,9 +174,9 @@ Key Principle: The client owns everything - codebase, hosting, credentials, and 
     }
   ],
   costs: [
-    { name: "UI/UX Design", value: 12000, fill: "#ea580c" },
-    { name: "Frontend", value: 25000, fill: "#f97316" },
-    { name: "Backend", value: 14200, fill: "#fb923c" }
+    { name: "UI/UX Design", value: 300000, fill: "#ea580c" },
+    { name: "Frontend", value: 625000, fill: "#f97316" },
+    { name: "Backend", value: 355000, fill: "#fb923c" }
   ]
 };
 
