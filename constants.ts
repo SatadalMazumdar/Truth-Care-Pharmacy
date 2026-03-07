@@ -174,10 +174,9 @@ Key Principle: The client owns everything - codebase, hosting, credentials, and 
     }
   ],
   costs: [
-    { name: "UI/UX Design (App + Admin)", value: 2800, fill: "#4F46E5" },
-    { name: "React Native App Development", value: 5200, fill: "#0EA5E9" },
-    { name: "Backend & Integrations", value: 2000, fill: "#10B981" },
-    { name: "QA, App Store & Launch", value: 1000, fill: "#F59E0B" },
+    { name: "UI/UX Design", value: 12000, fill: "#ea580c" },
+    { name: "Frontend", value: 25000, fill: "#f97316" },
+    { name: "Backend", value: 14200, fill: "#fb923c" }
   ]
 };
 
@@ -185,5 +184,5 @@ export const MENU_ITEMS = [
   { id: 'executive-summary', label: 'Overview' },
   { id: 'architecture', label: 'Architecture' },
   { id: 'features', label: 'Features' },
-  // { id: 'login-flow', label: 'Login Flow' },
+  { id: 'cost-breakdown', label: 'Cost Breakdown' },
 ];

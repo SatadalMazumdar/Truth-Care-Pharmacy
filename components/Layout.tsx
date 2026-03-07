@@ -93,7 +93,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Mobile Header */}
       <div className="md:hidden bg-white/80 backdrop-blur-md border-b border-stone-200 p-4 sticky top-0 z-50 flex justify-between items-center shadow-sm">
         <div className="font-semibold text-stone-800 flex items-center gap-2">
-          <span className="font-serif tracking-[1px]">Truth Care Pharmacy x DesignMVP</span>
+          <span className="font-serif tracking-[1px]">Truth Care Pharmacy x Haris&Co.</span>
         </div>
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

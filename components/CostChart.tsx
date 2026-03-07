@@ -16,7 +16,7 @@ const CostChart: React.FC = () => {
   }));
   const total = data.reduce((acc, curr) => acc + curr.value, 0);
 
-  const formatCurrency = (value: number) => `$${value.toLocaleString()}`;
+  const formatCurrency = (value: number) => `AED ${value.toLocaleString('en-AE')}`;
 
   const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
@@ -63,7 +63,7 @@ const CostChart: React.FC = () => {
         </div>
 
         <div className="w-full lg:w-1/2 space-y-4">
-          <h3 className="text-lg font-serif text-stone-900 border-b border-stone-100 pb-2 mb-4">Investment Breakdown</h3>
+          <h3 className="text-lg font-serif text-stone-900 border-b border-stone-100 pb-2 mb-4">Investment Overview</h3>
           {data.map((item, idx) => (
             <motion.div
               key={idx}
@@ -81,10 +81,9 @@ const CostChart: React.FC = () => {
             </motion.div>
           ))}
           <div className="pt-4 mt-4 border-t border-stone-100 flex justify-between items-start">
-            <span className="text-[15px] font-semibold text-stone-900">Total Investment</span>
+            <span className="text-[15px] font-semibold text-stone-900">Total</span>
             <div className="text-right">
-              <span className="font-semibold text-orange-600 text-lg block">{formatCurrency(total)}</span>
-              <span className="text-[13px] font-medium text-stone-500">≈ OMR {(total * 0.385).toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+              <span className="font-semibold text-orange-600 text-lg block"> (Approx.) {formatCurrency(total)}</span>
             </div>
           </div>
         </div>

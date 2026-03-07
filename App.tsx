@@ -12,10 +12,13 @@ import {
   ArrowRight,
   GitBranch,
   ShieldCheck,
-  Key
+  Key,
+  DollarSign
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Layout from './components/Layout';
+import CostChart from './components/CostChart';
+import CostTable from './components/CostTable';
 import { PROPOSAL_CONTENT } from './constants';
 
 // Reusable animation variants
@@ -397,7 +400,26 @@ const App: React.FC = () => {
         </motion.div>
       </section>
 
-      {/* 4. Customer Login Flow */}
+      {/* 4. Cost Breakdown */}
+      <motion.section
+        id="cost-breakdown"
+        className="scroll-mt-32"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={fadeInUp}
+      >
+        <h2 className="text-3xl font-serif text-stone-900 mb-8 flex items-center gap-4">
+          <div className="p-2.5 bg-stone-100 rounded-xl text-stone-900 border border-stone-200">
+            <DollarSign size={24} strokeWidth={1.5} />
+          </div>
+          Cost Breakdown
+        </h2>
+        <CostChart />
+        <CostTable />
+      </motion.section>
+
+      {/* 5. Customer Login Flow */}
 
 
     </Layout>
