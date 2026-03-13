@@ -1,8 +1,8 @@
-# E-Commerce Platform Proposal - Pharmacy App (Qatar)
+# E-Commerce Platform Proposal - Pharmacy App
 
 ## Overview
 
-Proposal for rebuilding the pharmacy e-commerce **mobile app** and improving the existing platform for the Qatar-based client. The website is already live and hosted on **Hostinger**, and **Shopify is already configured** in production.
+Proposal for rebuilding the pharmacy e-commerce **mobile app** and improving the existing platform for the client. The website is already live and hosted on **Hostinger**, and **Shopify is already configured** in production.
 
 Our approach: **Shopify as the sole backend** (inventory, orders, products, payments via Shopify APIs), **custom-built React Native mobile app**, and **Firebase for real-time features** (push notifications, analytics, auth, remote config). The existing website continues as-is with improvements.
 

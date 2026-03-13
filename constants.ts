@@ -3,13 +3,13 @@ import { CostItem, ProposalData } from './types';
 export const PROPOSAL_CONTENT: ProposalData = {
   meta: {
     client: "StayWell Pharmacy",
-    project: "StayWell Pharmacy - Pharmacy App (Qatar)",
+    project: "StayWell Pharmacy - Pharmacy App",
     platform: "React Native (iOS + Android)",
     preparedBy: "Haris&Co.",
     totalDuration: "~18 Weeks",
     totalInvestment: "USD TBD"
   },
-  executiveSummary: `This proposal covers the rebuilding of StayWell Pharmacy's e-commerce mobile app and improving the existing platform for the Qatar-based client. The website is already live and hosted on Hostinger, and Shopify is already configured in production.
+  executiveSummary: `This proposal covers the rebuilding of StayWell Pharmacy's e-commerce mobile app and improving the existing platform for the client. The website is already live and hosted on Hostinger, and Shopify is already configured in production.
 
 Our approach: Shopify as the sole backend (inventory, orders, products, payments via Shopify APIs), a custom-built React Native mobile app, and Firebase for real-time features (push notifications, analytics, auth, remote config). The existing website continues as-is with targeted improvements.
 
