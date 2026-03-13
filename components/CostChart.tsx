@@ -16,7 +16,7 @@ const CostChart: React.FC = () => {
   }));
   const total = data.reduce((acc, curr) => acc + curr.value, 0);
 
-  const formatCurrency = (value: number) => `₹ ${value.toLocaleString('en-IN')}`;
+  const formatCurrency = (value: number) => `₹ ${value.toLocaleString('ar-AE')}`;
 
   const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
