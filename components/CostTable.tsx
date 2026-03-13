@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const formatCurrency = (value: number) => `₹ ${value.toLocaleString('ar-AE')}`;
+const formatCurrency = (value: number) => `AED ${value.toLocaleString('ar-AE')}`;
 
 const COST_BREAKDOWN = [
     {
